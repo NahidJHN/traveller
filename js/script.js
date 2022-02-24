@@ -26,3 +26,11 @@ for (let i = 0; i < dataItem.length; i++) {
 
     })
 }
+
+
+let elem = document.querySelector('.main-carousel');
+let flkty = new Flickity( elem, {
+    autoPlay: true,
+    freeScroll: true
+});
+
